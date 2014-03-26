@@ -1,0 +1,101 @@
+/* Simple 2^11 game
+ * Technion Web Lab 2014
+ * Copyright (C) 2014, Uri Shaked. Code released under the MIT License.
+ */
+
+body {
+    font-family: cursive;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    color: silver;
+    margin-top: 0;
+}
+
+#game-board {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: ivory;
+    height: 400px;
+    width: 400px;
+    border: solid black 1px;
+    padding: 20px;
+    line-height: 0;
+}
+
+.game-square {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    line-height: 90px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid blue;
+    width: 25%;
+    height: 25%;
+}
+
+.game-square.square-0 {
+    background-color: whitesmoke;
+}
+
+.game-square.square-2 {
+    background-color: #80FF80;
+}
+
+.game-square.square-4 {
+    background-color: #baea8c;
+}
+
+.game-square.square-8 {
+    background-color: #a4bc5a;
+}
+
+.game-square.square-16 {
+    background-color: #bcb737;
+}
+
+.game-square.square-32 {
+    background-color: #ebe544;
+}
+
+.game-square.square-64 {
+    background-color: #ebcb00;
+}
+
+.game-square.square-128 {
+    background-color: #ffa500;
+}
+
+.game-square.square-256 {
+    background-color: #e18f00;
+}
+
+.game-square.square-512 {
+    background-color: #e15310;
+}
+
+.game-square.square-1024 {
+    background-color: #e10987;
+    font-size: 32px;
+}
+
+.game-square.square-2048 {
+    background-color: #ee00ff;
+    font-size: 32px;
+}
+
+#restart-button {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 100px;
+    font-family: arial;
+    font-size: 12px;
+}
